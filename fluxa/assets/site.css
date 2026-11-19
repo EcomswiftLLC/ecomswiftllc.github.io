@@ -195,6 +195,7 @@ table.fmt tbody th { color: var(--text); font-weight: 700; white-space: nowrap; 
 table.fmt td { color: var(--muted); }
 table.fmt td.best { color: var(--text); }
 table.fmt.lib { min-width: 0; }
+table.fmt.lib tbody th { white-space: normal; }
 table.fmt.lib td[data-label="Licence"] { white-space: nowrap; }
 .ingroups { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 2.5rem; margin-bottom: 1rem; }
 .ingroups h3 { margin-top: 1.2rem; }
@@ -218,6 +219,7 @@ table.fmt.lib td[data-label="Licence"] { white-space: nowrap; }
 @media (max-width: 34rem) {
   body { font-size: 1rem; }
   .split, table.fmt.lib { min-width: 0; }
+table.fmt.lib tbody th { white-space: normal; }
 table.fmt.lib td[data-label="Licence"] { white-space: nowrap; }
 .ingroups { grid-template-columns: minmax(0, 1fr); }
   .presets { grid-template-columns: minmax(0, 1fr); }
